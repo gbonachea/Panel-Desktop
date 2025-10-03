@@ -1,0 +1,38 @@
+QWidget#MenuFondo {
+    background: #f2f2f2;
+    border-radius: 10px;
+    border: 1px solid #b0b0b0;
+    color: #222;
+}
+QListWidget, QScrollArea, QLineEdit, QPushButton {
+    color: #222;
+}
+QListWidget::item {
+    padding: 8px 0 8px 8px;
+}
+QListWidget::item:selected {
+    background: #cce6ff;
+    color: #003366;
+    border-radius: 5px;
+}
+QPushButton#TodasBtn {
+    background: #e0e0e0;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 8px;
+    color: #222;
+}
+QPushButton#TodasBtn:hover {
+    background: #d0d0d0;
+}
+QLineEdit {
+    background: #fff;
+    border: 1px solid #b0b0b0;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+    color: #222;
+}
+QPushButton {
+    color: #222;
+}
